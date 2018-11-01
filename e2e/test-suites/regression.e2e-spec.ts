@@ -3,7 +3,6 @@ import {LoginPageHelper} from '../page-objects/pages/login/login-page.helper';
 import {InboxPage} from '../page-objects/pages/inbox/inbox.po';
 import {MailBox} from '../page-objects/pages/inbox/mailbox.po';
 import {ComposeWindow} from '../page-objects/pages/compose/compose.po';
-//import {browser, By, element, ExpectedConditions} from 'protractor';
 import {browser, By, element, ExpectedConditions, Key} from 'protractor';
 import {Guid} from '../tools/tools.js';
 
