@@ -10,3 +10,4 @@
 - On any terminal move to the root folder and execute the following commands:
     - npm install (To install all the packages)
     - npm run e2e (To run the tests)
+    - go to protractor.conf.js and change username and password to log in gmail 
