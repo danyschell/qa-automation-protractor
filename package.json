@@ -1,0 +1,29 @@
+{
+  "name": "protractor-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "e2e": "protractor protractor.conf.js",
+    "lint": "tslint \"e2e/**/*.ts\""
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/compiler": "^6.0.5",
+    "@angular/core": "^6.0.5",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.1",
+    "rxjs": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~2.8.7",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~10.3.3",
+    "codelyzer": "~4.3.0",
+    "jasmine-core": "~3.1.0",
+    "jest": "^23.6.0",
+    "ts-node": "~6.1.1",
+    "tslint": "~5.10.0",
+    "typescript": "~2.9.2"
+  }
+}
